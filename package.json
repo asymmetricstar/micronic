@@ -1,0 +1,39 @@
+{
+  "name": "micronic",
+  "version": "0.1.1",
+  "description": "Micronic authoritative DNS server with interactive terminal console for zone management.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "micronic": "src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "authoritative-dns",
+    "interactive-dns-console",
+    "sqlite-dns",
+    "dns-records",
+    "endpoint-dns",
+    "rbac-dns",
+    "nodejs-dns",
+    "self-hosted-dns",
+    "dns-zone-manager",
+    "dns-api",
+    "dns-cli"
+  ],
+  "author": "Levent Inan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asymmetricstar/micronic.git"
+  }
+}
